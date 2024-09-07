@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <style type="text/css">
+            #one
+            {
+                background-color: yellow;
+                width: 200px;
+                height: 200px;
+                float: left;
+            }
+            #two
+            {
+                background-color: red;
+                width: 200px;
+                height: 200px;
+                float: left;
+            }
+            #three
+            {
+                background-color: green;
+                width: 200px;
+                height: 200px;
+            }
+            #four
+            {
+                background-color: blue;
+                width: 200px;
+                height: 200px;
+            }
+            #container
+            {
+                position: relative;
+                width: 300px;
+                height: 300px;
+                opacity: 0.6;
+            }
+            img{
+                width: 300px;
+                height: 300px;
+                position: absolute;
+            }
+            #container:hover 
+            {
+                opacity: 1;
+            }
+            #container:hover
+            {
+                box-shadow: 20px 20px 20px 5px #0d0c0c;
+            }
+            #container:hover p
+            {
+                color: rgb(21, 20, 20);
+            }
+            p{
+                color: rgb(11, 11, 11);
+                position: absolute;
+                text-align: end;
+                line-height: 400px;
+                width: 300px;
+                font-size: 50px;
+            }
+            h1
+            {
+                font-size: 30px;
+                color: red;
+                font-weight: bold;
+                text-shadow: 2px 3px 7px #333;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+        <div id="four"></div>
+        <div id="container">
+            <img src="image/cr7.jpg">
+            <p>CR7</p>
+        </div>
+        <h1>I like cricket.</h1>
+    </body>
+</html>
